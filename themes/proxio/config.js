@@ -2,7 +2,7 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-  PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
+  PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
   PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
@@ -11,10 +11,10 @@ const CONFIG = {
   PROXIO_HERO_TITLE_2: '工业设计-服务设计-体验设计', // 英雄区文字
   // 英雄区两个按钮，如果TEXT
   留空则隐藏按钮
-  PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
     'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
 
@@ -60,7 +60,7 @@ const CONFIG = {
   PROXIO_FEATURE_3_TEXT_1:
     '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
 
-  PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
+  PROXIO_FEATURE_BUTTON_TEXT: '', // 按钮文字
   PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
   // 首页生涯区块
