@@ -68,13 +68,13 @@ const CONFIG = {
   PROXIO_CAREERS: [
     {
       title: '工业设计',
-      bio: '2016-2020',
-      text: 'As a freelance architect, I worked on a range of residential and commercial projects, balancing form and function. I collaborated with clients and contractors to transform concepts into reality, ensuring each design was both aesthetically pleasing and structurally sound.'
+      bio: '2020-2024',
+      text: '广东工业大学 工业设计 体验设计方向.'
     },
     {
       title: 'Design Innovation and Transformation Design',
-      bio: '2020-2022',
-      text: 'At Spotify, I helped shape innovative features for millions of users globally. My focus was on creating seamless music discovery experiences, enhancing user interfaces, and optimizing cross-platform navigation, which led to an improved product flow and increased user satisfaction.'
+      bio: '2024-2025至今',
+      text: '格拉斯哥艺术学院 The Glasgow School of Art'
     },
     
   ],
@@ -171,18 +171,18 @@ const CONFIG = {
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: '关于作者',
-  PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+  PROXIO_ABOUT_TEXT_1: '一个注重用户体验，熟练研究用户需求的设计师',
   PROXIO_ABOUT_TEXT_2:
-    'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
-  PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
-  PROXIO_ABOUT_KEY_1: '经验年限',
-  PROXIO_ABOUT_VAL_1: '10年+',
-  PROXIO_ABOUT_KEY_2: '客户',
-  PROXIO_ABOUT_VAL_2: '1000+',
-  PROXIO_ABOUT_KEY_3: '交付项目',
-  PROXIO_ABOUT_VAL_3: '5000+',
-  PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
-  PROXIO_ABOUT_VAL_4: '10000+',
+    'Adobe Photoshop, Illustrator, Figma, Axure RP, Rhino cero, Blender, Keyshot, Adobe Premiere Pro, AE，剪映，VN, Studio one, Audition, Office, Adobe Acrobat DC, 单片机：Arduino 3D打印技术',
+  PROXIO_ABOUT_PHOTO_URL: 'https://i.pinimg.com/736x/74/64/1b/74641b1f542181355c583ed29eded26d.jpg',
+  PROXIO_ABOUT_KEY_1: '雅思能力',
+  PROXIO_ABOUT_VAL_1: '7分',
+  PROXIO_ABOUT_KEY_2: '专业经历',
+  PROXIO_ABOUT_VAL_2: '工业设计 转型设计',
+  PROXIO_ABOUT_KEY_3: '在校成绩',
+  PROXIO_ABOUT_VAL_3: '82+',
+  PROXIO_ABOUT_KEY_4: '在校项目',
+  PROXIO_ABOUT_VAL_4: '4+',
 
   PROXIO_ABOUT_BUTTON_URL: '/about',
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
@@ -190,13 +190,13 @@ const CONFIG = {
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
-    'Web Design',
-    'Logo Design',
-    'Mobile App Design',
-    'Product Design'
+    'Industrial Design',
+    'Service Design',
+    'UI UX Design',
+    'Communication Design'
   ],
 
-  PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  PROXIO_FOOTER_SLOGAN: '我致力于创造优秀的用户体验。',
 
   // 页脚三列菜单组
   // 页脚菜单
@@ -215,11 +215,11 @@ const CONFIG = {
       ]
     },
     {
-      name: '开发者',
+      name: '功能开发者',
       menus: [
         { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
         {
-          title: '开发帮助',
+          title: '页面开发帮助',
           href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
         },
         {
@@ -231,8 +231,8 @@ const CONFIG = {
           href: 'https://github.com/tangly1024/NotionNext/discussions'
         },
         {
-          title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
+          title: '15102009279@163.com',
+          href: '15102009279@163.com'
         }
       ]
     }
@@ -264,7 +264,7 @@ const CONFIG = {
   PROXIO_CTA_BUTTON_URL: '/about',
   PROXIO_CTA_BUTTON_TEXT: '联系我',
 
-  PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
+  PROXIO_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
   PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
   PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
