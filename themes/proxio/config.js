@@ -23,12 +23,12 @@ const CONFIG = {
   PROXIO_BLOG_TEXT_1: '作品展示',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: 'https://s21.ax1x.com/2025/09/02/pVgEalT.jpg', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: 'https://s21.ax1x.com/2025/09/02/pVgEalT.jpg',
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: 'https://s21.ax1x.com/2025/09/02/pVgEalT.jpg',
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: 'https://s21.ax1x.com/2025/09/02/pVgEalT.jpg',
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_5: 'https://s21.ax1x.com/2025/09/02/pVgEalT.jpg',
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_6: 'https://s21.ax1x.com/2025/09/02/pVgEalT.jpg',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: 'https://s21.ax1x.com/2025/09/02/pVgEXjS.jpg', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: 'https://s21.ax1x.com/2025/09/02/pVgEXjS.jpg',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: 'https://s21.ax1x.com/2025/09/02/pVgEXjS.jpg',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: 'https://s21.ax1x.com/2025/09/02/pVgEXjS.jpg',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_5: 'https://s21.ax1x.com/2025/09/02/pVgEXjS.jpg',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_6: 'https://s21.ax1x.com/2025/09/02/pVgEXjS.jpg',
 
   PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
